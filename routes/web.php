@@ -30,6 +30,9 @@ Route::post('/cart/remove', [CartController::class, 'remove'])->name('cart.remov
 Route::post('/cart/clear', [CartController::class, 'clear'])->name('cart.clear');
 Route::get('/cart/count', [CartController::class, 'getCartCount'])->name('cart.count');
 
+//Finally complete this project
+//This was the bug
+
 // Checkout routes
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout.index');
 Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
